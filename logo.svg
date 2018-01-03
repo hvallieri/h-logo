@@ -1,0 +1,35 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" height="200" width="200">
+    <style type="text/css" >
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700,400italic,700italic');
+        * {
+            font-family: "Inconsolata";
+        }
+        .blinking {
+            animation: blinking 1.12s step-end infinite;
+        }
+
+        @keyframes "blinking" {
+            from, to {
+                opacity: 0;
+            }
+           50% {
+              opacity:100;
+            }
+        }
+        @-webkit-keyframes "blinking" {
+            from, to {
+                opacity: 0;
+            }
+           50% {
+              opacity:100;
+            }
+        }
+    </style>
+  <g>
+    <rect x="0" y="0" width="120" height="120" fill="#252a30"></rect>
+    <a xlink:href="https://www.vallieri.net" style="background-color:#000;">
+      <text font-size="60" text-anchor="middle" x="45" y="75" fill="#fff">h</text>
+      <text class="blinking" font-size="60" text-anchor="middle" x="75" y="75" fill="#fff">_</text>
+    </a>
+  </g>
+</svg>
